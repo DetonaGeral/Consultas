@@ -1,0 +1,135 @@
+.titulo-dias {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1em;
+}
+
+.cliente__container-perfil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cliente__container-imagem {
+    display: flex;
+    align-items: center;
+}
+
+.cliente__container-h2 {
+    display: flex;
+}
+
+.cliente__imagem {
+    padding: 1em;
+}
+
+.cliente__nome {
+    font-weight: 700;
+    color: var(--preto-46);
+    padding: 0 0 0.4em 0;
+}
+
+.cliente__h2 {
+    font-size: 0.75rem;
+    color: var(--cinza-a3);
+    padding: 0 0 0 0.4em;
+}
+
+.cliente__chatcirculo {
+    margin: 1em;
+}
+
+.a {
+    border-top: 1px solid #46464619;
+}
+
+.hora__titulo {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.5em 1em 2em 1em;
+}
+
+.botoes__video {
+    background-color: var(--laranja);
+    text-decoration: none;
+    border: 1px solid var(--laranja);
+    border-radius: 8px;
+    color: var(--branco);
+    padding: 0.8em 1em;
+    margin: 10em 1.1em 1em 1em;
+}
+
+.botoes__audio {
+    text-decoration: none;
+    border: 1px solid var(--branco-ec);
+    border-radius: 8px;
+    color: var(--preto-46);
+    padding: 0.8em 1em;
+}
+
+.cliente__container-cliente {
+    padding: 0 1em 1em 1em;
+}
+
+.cliente-1 {
+    padding: 0 0 1em 0;
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 8px;
+}
+
+.cliente-2 {
+    padding: 1em 0 1em 0;
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 8px;
+}
+
+.cliente-3 {
+    padding: 1em 0 1.5em 0;
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 8px;
+}
+
+.cliente-4 {
+    padding: 1em 0 1.5em 0;
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 8px;
+}
+
+.botao__endereco {
+    text-decoration: none;
+    color: var(--branco);
+    border: 1px solid var(--azul);
+    border-radius: 8px;
+    background-color: var(--azul);
+    padding: 0.75em 7.5em;
+    margin: 0 1em 1em 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .colunas {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .botao__endereco {
+        padding: 0.75em 11.8em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .colunas {
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+    }
+
+    .botao__endereco {
+        padding: 0.75em 9em;
+    }
+    .body {
+        display: grid;
+        grid-template-columns: 15% 80%;
+    }
+}

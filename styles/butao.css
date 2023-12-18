@@ -1,0 +1,23 @@
+.botao-mais {
+    width: 45px;
+    height: 45px;
+
+
+    color: var(--branco);
+    font-size: 24px;
+    position: absolute;
+
+    bottom: 12px;
+    right: 12px;
+    
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background: var(--azul);
+}
+
+@media screen and (min-width: 1024px) {
+    .botao-mais {
+        display: none;
+    }
+}
